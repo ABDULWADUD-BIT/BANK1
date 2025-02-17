@@ -1,15 +1,34 @@
 # BANK1
+
+
+
+
+
+
+
+
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
 
+
+
+
+
+
+
+
 struct bank_user {
-    char my_name[100];
-    char fa_name[100];
-    char ma_name[100];
-    long long int id;
-    long long int pass;
-};
+                    char my_name[100];
+                    char fa_name[100];
+                    char ma_name[100];
+                    long long int id;
+                    long long int pass;
+                };
+
+
+
+
 void reg(){
  int account_create,sign_up;
     printf("account create enter 1: ");
